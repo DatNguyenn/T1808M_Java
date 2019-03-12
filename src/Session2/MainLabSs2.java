@@ -9,5 +9,4 @@ public class MainLabSs2 {
         System.out.println("Tien Thuong Cua Nhan Vien : "+nhanvien1.tinhThuong());
 
     }
-
 }
