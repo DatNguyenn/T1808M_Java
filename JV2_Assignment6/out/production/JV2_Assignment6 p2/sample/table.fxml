@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="sample.List" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+
+<TableView fx:id="tbView" layoutX="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <columns>
+    <TableColumn fx:id="txtId" prefWidth="105.0" text="ID" />
+    <TableColumn fx:id="txtUsername" prefWidth="154.0" text="UserName" />
+      <TableColumn fx:id="txtEmail" prefWidth="105.0" text="Email" />
+      <TableColumn fx:id="txtPassword" prefWidth="135.0" text="Password" />
+      <TableColumn fx:id="txtStatus" prefWidth="105.0" text="Status" />
+  </columns>
+</TableView>
+</Pane>
